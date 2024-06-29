@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playpen+Sans&family=Roboto&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right, #348f50,#56b4d3);
+    overflow: hidden;
+}
+
+.contact-form{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0, 0, 0,0.1);
+
+    transform: translateY(100%);
+    overflow: hidden;
+}
+
+.container.active .contact-form{
+    transform: translateY(0);
+}
+
+.contact-form h2{
+    text-align: center ;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+.form-group{
+    margin: 20px;
+}
+
+.form-group2{
+    margin: 20px;
+}
+
+.form-group3{
+    margin: 20px;
+}
+
+.form-group4{
+    margin: 20px;
+}
+
+.form-group5{
+    margin: 20px;
+}
+1
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    color: whitesmoke;
+    background-color: #40bbe4;
+    border-radius: 10px;
+    border: 1px ;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #348f50;
+    transition-duration: 0.3s;
+}
